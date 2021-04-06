@@ -14,7 +14,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <libgen.h>
-#include <stdio.h>
 
 int			ft_isnbr(char *str)
 {
