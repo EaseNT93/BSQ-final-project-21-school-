@@ -106,6 +106,7 @@ t_matrix	*ft_read_file(char *file)
 	fd = open(basename(file), O_RDONLY);
 	if (fd == -1)
 		ft_putstr(MAP_ERROR);
+	else
 	{
 		height = get_instrf(fd, &mark);
 		width = check_validf(fd, mark, height);
